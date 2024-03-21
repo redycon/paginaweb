@@ -21,7 +21,7 @@ const buttonClick = (param) => {
     <div>
   <input type='text' value={texto} onChange={textOnChange}/>
   <button  value="e" onClick={buttonClick}> Actualizar</button>
-<p>Texto Input {texto}</p>
+<p>Texto Input test {texto}</p>
 <p>Texto Actualizado {updated}  </p>
     </div>
   )
